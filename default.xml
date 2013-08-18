@@ -391,7 +391,7 @@
   <project path="vendor/slim" name="vendor_slim" remote="od" revision="jb4.3" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="gh" revision="cm-10.2" />
   <project path="vendor/qcom" name="SlimRoms/proprietary_vendor_qcom" remote="github" revision="jb4.3" />
-  <project path="vendor/broadcom"name="SlimRoms/proprietary_vendor_broadcom"  remote="github" revision="jb4.3" />
+  <project path="vendor/broadcom" name="SlimRoms/proprietary_vendor_broadcom" remote="github" revision="jb4.3" />
   
   <!-- Slim File Manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="jb4.3" />
