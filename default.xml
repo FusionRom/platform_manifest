@@ -393,7 +393,6 @@
   <project path="vendor/qcom" name="SlimRoms/proprietary_vendor_qcom" remote="github" revision="jb4.3" />
   <project path="vendor/broadcom" name="SlimRoms/proprietary_vendor_broadcom" remote="github" revision="jb4.3" />
   
-
   <!-- Koush Superuser -->
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.2" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.2" />
