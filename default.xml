@@ -7,12 +7,15 @@
   <remote  name="github"
            fetch="git://github.com/"
            review="https://review.slimroms.net:8443/"/>
-
+           
+  <remote name="od"
+           fetch="https://github.com/droyd/" />
+           
   <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="jb4.3" >
+  <project path="build" name="android_build" remote="od" revision="jb4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -29,6 +32,7 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="od" revision="jb4.3" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -205,7 +209,7 @@
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jb4.3" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jb4.3" />
-  <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb4.3" />
+  <project path="frameworks/base" name="frameworks_base" remote="od" revision="jb4.3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="jb4.3" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
@@ -255,6 +259,7 @@
   <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="jb4.3" />
   <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="jb4.3" />
   <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="jb4.3" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="od" revision="jb4.3" />
   <project path="libcore" name="SlimRoms/platform_libcore" remote="github" revision="jb4.3" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -289,7 +294,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="SlimRoms/packages_apps_Provision" remote="github" revision="jb4.3" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="SlimRoms/packages_apps_Settings" remote="github" revision="jb4.3" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="od" revision="jb4.3" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="SlimRoms/packages_apps_SoundRecorder" remote="github" revision="jb4.3" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -380,7 +385,8 @@
   <project path="platform_manifest" name="SlimRoms/platform_manifest" remote="github" revision="jb4.3" />
 
   <!-- New Additions for slim -->
-  <project path="vendor/slim" name="SlimRoms/vendor_slim" remote="github" revision="jb4.3" />
+  <project path="vendor/slim" name="vendor_slim" remote="od" revision="jb4.3" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="gh" revision="cm-10.2" />
 
   <!-- Slim File Manager -->
   <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="jb4.3" />
