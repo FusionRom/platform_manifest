@@ -254,7 +254,7 @@
   <project path="hardware/qcom/audio-caf" name="SlimRoms/hardware_qcom_audio-caf" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="jb4.3" />
-  <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_displacaf" remote="github" revision="jb4.3" /> 
+  <project path="hardware/qcom/display-caf" name="SlimRoms/hardware_qcom_displaycaf" remote="github" revision="jb4.3" /> 
   <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jb4.3" />
