@@ -393,7 +393,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="platform_manifest" remote="od" revision="jb4.3" />
+  <project path="platform_manifest" name="droyd/platform_manifest" remote="github" revision="jb4.3" />
 
   <!-- New Additions for odyssey -->
   <project path="vendor/odyssey" name="vendor_odyssey" remote="od" revision="jb4.3" />
