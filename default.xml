@@ -395,7 +395,7 @@
   <!-- New Additions for odyssey -->
   <project path="vendor/odyssey" name="vendor_odyssey" remote="od" revision="jb4.3" />
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="gh" revision="cm-10.2" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="gh" revision="cm-10.2" />
+  <project path="vendor/lge" name="SlimRoms/proprietary_vendor_lge" remote="github" revision="jb4.3" />
   <project path="vendor/qcom" name="SlimRoms/proprietary_vendor_qcom" remote="github" revision="jb4.3" />
   <project path="vendor/broadcom" name="SlimRoms/proprietary_vendor_broadcom" remote="github" revision="jb4.3" />
   
